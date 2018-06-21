@@ -7,8 +7,11 @@
 //
 
 #import "LSLiveViewController.h"
+#import "LSLiveListTableView.h"
 
 @interface LSLiveViewController ()
+
+@property (nonatomic, strong) LSLiveListTableView *liveListTableView;
 
 @end
 
@@ -19,6 +22,31 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"直播";
+    // https://codeload.github.com/782595450/live_source/zip/master
+    
+    [self initData];
+    [self liveListTableView];
+    
+}
+
+
+- (void)initData{
+    
+}
+
+
+
+
+
+- (LSLiveListTableView *)liveListTableView{
+    if (!_liveListTableView) {
+        _liveListTableView = [[LSLiveListTableView alloc] initWithModelArr:nil withControllerView:self];
+        [self.view addSubview:_liveListTableView];
+        [_liveListTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.view);
+        }];
+    }
+    return _liveListTableView;
 }
 
 - (void)didReceiveMemoryWarning {
