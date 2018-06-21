@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		949F0FC620DA5B1300D13E88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0FC520DA5B1300D13E88 /* AppDelegate.m */; };
-		949F0FC920DA5B1300D13E88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0FC820DA5B1300D13E88 /* ViewController.m */; };
 		949F0FCC20DA5B1300D13E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949F0FCA20DA5B1300D13E88 /* Main.storyboard */; };
 		949F0FCE20DA5B1400D13E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949F0FCD20DA5B1400D13E88 /* Assets.xcassets */; };
 		949F0FD120DA5B1400D13E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949F0FCF20DA5B1400D13E88 /* LaunchScreen.storyboard */; };
 		949F0FD420DA5B1400D13E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0FD320DA5B1400D13E88 /* main.m */; };
 		949F0FDE20DA5B1500D13E88 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0FDD20DA5B1500D13E88 /* ____Tests.m */; };
 		949F0FE920DA5B1500D13E88 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F0FE820DA5B1500D13E88 /* ____UITests.m */; };
+		949F0FFF20DB34DE00D13E88 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 949F0FFE20DB34DE00D13E88 /* libc++.tbd */; };
+		949F100320DB35B100D13E88 /* LSPlayerMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F100120DB35B100D13E88 /* LSPlayerMovieDecoder.m */; };
+		949F100620DB35BC00D13E88 /* OpenGLView20.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F100420DB35BB00D13E88 /* OpenGLView20.m */; };
+		949F100920DB35D400D13E88 /* AVFrameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F100720DB35D300D13E88 /* AVFrameData.m */; };
+		949F104D20DB386800D13E88 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949F104C20DB386700D13E88 /* IJKMediaFramework.framework */; };
+		949F105120DB3A1A00D13E88 /* LSTabBarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F105020DB3A1A00D13E88 /* LSTabBarTool.m */; };
+		949F105420DB3A8400D13E88 /* LSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F105320DB3A8400D13E88 /* LSBaseNavigationController.m */; };
+		949F106320DB3BAC00D13E88 /* LSFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F106220DB3BAC00D13E88 /* LSFolderViewController.m */; };
+		949F106620DB3BDE00D13E88 /* LSLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F106520DB3BDE00D13E88 /* LSLiveViewController.m */; };
+		949F106920DB3BE800D13E88 /* LSMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F106820DB3BE800D13E88 /* LSMyViewController.m */; };
+		949F106C20DB3D5B00D13E88 /* LSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F106B20DB3D5B00D13E88 /* LSBaseViewController.m */; };
+		AF53EAEB68BBC14F7D45FF5C /* libPods-大千世界.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7994B9EFFE216175F154E6D8 /* libPods-大千世界.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		698A62A135134A61425B5F18 /* Pods-大千世界.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-大千世界.release.xcconfig"; path = "Pods/Target Support Files/Pods-大千世界/Pods-大千世界.release.xcconfig"; sourceTree = "<group>"; };
+		7994B9EFFE216175F154E6D8 /* libPods-大千世界.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-大千世界.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F0FC120DA5B1300D13E88 /* 大千世界.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大千世界.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F0FC420DA5B1300D13E88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		949F0FC520DA5B1300D13E88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		949F0FC720DA5B1300D13E88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		949F0FC820DA5B1300D13E88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		949F0FCB20DA5B1300D13E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949F0FCD20DA5B1400D13E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949F0FD020DA5B1400D13E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,28 @@
 		949F0FE420DA5B1500D13E88 /* 大千世界UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "大千世界UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F0FE820DA5B1500D13E88 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		949F0FEA20DA5B1500D13E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949F0FFE20DB34DE00D13E88 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		949F100120DB35B100D13E88 /* LSPlayerMovieDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPlayerMovieDecoder.m; sourceTree = "<group>"; };
+		949F100220DB35B100D13E88 /* LSPlayerMovieDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPlayerMovieDecoder.h; sourceTree = "<group>"; };
+		949F100420DB35BB00D13E88 /* OpenGLView20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView20.m; sourceTree = "<group>"; };
+		949F100520DB35BC00D13E88 /* OpenGLView20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView20.h; sourceTree = "<group>"; };
+		949F100720DB35D300D13E88 /* AVFrameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFrameData.m; sourceTree = "<group>"; };
+		949F100820DB35D400D13E88 /* AVFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFrameData.h; sourceTree = "<group>"; };
+		949F104C20DB386700D13E88 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		949F104F20DB3A1A00D13E88 /* LSTabBarTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTabBarTool.h; sourceTree = "<group>"; };
+		949F105020DB3A1A00D13E88 /* LSTabBarTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTabBarTool.m; sourceTree = "<group>"; };
+		949F105220DB3A8400D13E88 /* LSBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSBaseNavigationController.h; sourceTree = "<group>"; };
+		949F105320DB3A8400D13E88 /* LSBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBaseNavigationController.m; sourceTree = "<group>"; };
+		949F106120DB3BAC00D13E88 /* LSFolderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSFolderViewController.h; sourceTree = "<group>"; };
+		949F106220DB3BAC00D13E88 /* LSFolderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSFolderViewController.m; sourceTree = "<group>"; };
+		949F106420DB3BDE00D13E88 /* LSLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLiveViewController.h; sourceTree = "<group>"; };
+		949F106520DB3BDE00D13E88 /* LSLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLiveViewController.m; sourceTree = "<group>"; };
+		949F106720DB3BE800D13E88 /* LSMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSMyViewController.h; sourceTree = "<group>"; };
+		949F106820DB3BE800D13E88 /* LSMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSMyViewController.m; sourceTree = "<group>"; };
+		949F106A20DB3D5B00D13E88 /* LSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSBaseViewController.h; sourceTree = "<group>"; };
+		949F106B20DB3D5B00D13E88 /* LSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBaseViewController.m; sourceTree = "<group>"; };
+		949F106E20DB3DD100D13E88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C6387E6828E6AA6F499396E4 /* Pods-大千世界.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-大千世界.debug.xcconfig"; path = "Pods/Target Support Files/Pods-大千世界/Pods-大千世界.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949F104D20DB386800D13E88 /* IJKMediaFramework.framework in Frameworks */,
+				949F0FFF20DB34DE00D13E88 /* libc++.tbd in Frameworks */,
+				AF53EAEB68BBC14F7D45FF5C /* libPods-大千世界.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				949F0FDC20DA5B1400D13E88 /* 大千世界Tests */,
 				949F0FE720DA5B1500D13E88 /* 大千世界UITests */,
 				949F0FC220DA5B1300D13E88 /* Products */,
+				BEBCCEC7761A8B55B62E7C50 /* Pods */,
+				C979FEFD1CE3BF3E274B30DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +139,15 @@
 		949F0FC320DA5B1300D13E88 /* 大千世界 */ = {
 			isa = PBXGroup;
 			children = (
+				949F0FF620DB2D7200D13E88 /* Main */,
 				949F0FC420DA5B1300D13E88 /* AppDelegate.h */,
 				949F0FC520DA5B1300D13E88 /* AppDelegate.m */,
-				949F0FC720DA5B1300D13E88 /* ViewController.h */,
-				949F0FC820DA5B1300D13E88 /* ViewController.m */,
 				949F0FCA20DA5B1300D13E88 /* Main.storyboard */,
 				949F0FCD20DA5B1400D13E88 /* Assets.xcassets */,
 				949F0FCF20DA5B1400D13E88 /* LaunchScreen.storyboard */,
 				949F0FD220DA5B1400D13E88 /* Info.plist */,
 				949F0FD320DA5B1400D13E88 /* main.m */,
+				949F106E20DB3DD100D13E88 /* PrefixHeader.pch */,
 			);
 			path = "大千世界";
 			sourceTree = "<group>";
@@ -132,6 +170,202 @@
 			path = "大千世界UITests";
 			sourceTree = "<group>";
 		};
+		949F0FF620DB2D7200D13E88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				949F0FF720DB2D7200D13E88 /* Source */,
+				949F0FF820DB2D7200D13E88 /* Public */,
+				949F0FF920DB2D7200D13E88 /* Modules */,
+				949F0FFA20DB2D7200D13E88 /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		949F0FF720DB2D7200D13E88 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		949F0FF820DB2D7200D13E88 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				949F104E20DB39C100D13E88 /* TabBar */,
+				949F100020DB359D00D13E88 /* IjkManager */,
+				949F0FFB20DB338B00D13E88 /* Framework */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		949F0FF920DB2D7200D13E88 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				949F105520DB3B4A00D13E88 /* FileModules */,
+				949F105620DB3B4A00D13E88 /* LiveModules */,
+				949F105720DB3B4A00D13E88 /* MyModules */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		949F0FFA20DB2D7200D13E88 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				949F105220DB3A8400D13E88 /* LSBaseNavigationController.h */,
+				949F105320DB3A8400D13E88 /* LSBaseNavigationController.m */,
+				949F106A20DB3D5B00D13E88 /* LSBaseViewController.h */,
+				949F106B20DB3D5B00D13E88 /* LSBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		949F0FFB20DB338B00D13E88 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				949F104C20DB386700D13E88 /* IJKMediaFramework.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		949F100020DB359D00D13E88 /* IjkManager */ = {
+			isa = PBXGroup;
+			children = (
+				949F100220DB35B100D13E88 /* LSPlayerMovieDecoder.h */,
+				949F100120DB35B100D13E88 /* LSPlayerMovieDecoder.m */,
+				949F100520DB35BC00D13E88 /* OpenGLView20.h */,
+				949F100420DB35BB00D13E88 /* OpenGLView20.m */,
+				949F100820DB35D400D13E88 /* AVFrameData.h */,
+				949F100720DB35D300D13E88 /* AVFrameData.m */,
+			);
+			path = IjkManager;
+			sourceTree = "<group>";
+		};
+		949F104E20DB39C100D13E88 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				949F104F20DB3A1A00D13E88 /* LSTabBarTool.h */,
+				949F105020DB3A1A00D13E88 /* LSTabBarTool.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		949F105520DB3B4A00D13E88 /* FileModules */ = {
+			isa = PBXGroup;
+			children = (
+				949F105920DB3B6A00D13E88 /* Controller */,
+				949F105820DB3B6A00D13E88 /* Model */,
+				949F105A20DB3B6A00D13E88 /* View */,
+			);
+			path = FileModules;
+			sourceTree = "<group>";
+		};
+		949F105620DB3B4A00D13E88 /* LiveModules */ = {
+			isa = PBXGroup;
+			children = (
+				949F105C20DB3B7000D13E88 /* Controller */,
+				949F105D20DB3B7000D13E88 /* Model */,
+				949F105B20DB3B6F00D13E88 /* View */,
+			);
+			path = LiveModules;
+			sourceTree = "<group>";
+		};
+		949F105720DB3B4A00D13E88 /* MyModules */ = {
+			isa = PBXGroup;
+			children = (
+				949F105F20DB3B7500D13E88 /* Controller */,
+				949F106020DB3B7500D13E88 /* Model */,
+				949F105E20DB3B7500D13E88 /* View */,
+			);
+			path = MyModules;
+			sourceTree = "<group>";
+		};
+		949F105820DB3B6A00D13E88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		949F105920DB3B6A00D13E88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				949F106120DB3BAC00D13E88 /* LSFolderViewController.h */,
+				949F106220DB3BAC00D13E88 /* LSFolderViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949F105A20DB3B6A00D13E88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949F105B20DB3B6F00D13E88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949F105C20DB3B7000D13E88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				949F106420DB3BDE00D13E88 /* LSLiveViewController.h */,
+				949F106520DB3BDE00D13E88 /* LSLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949F105D20DB3B7000D13E88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		949F105E20DB3B7500D13E88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949F105F20DB3B7500D13E88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				949F106720DB3BE800D13E88 /* LSMyViewController.h */,
+				949F106820DB3BE800D13E88 /* LSMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		949F106020DB3B7500D13E88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEBCCEC7761A8B55B62E7C50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6387E6828E6AA6F499396E4 /* Pods-大千世界.debug.xcconfig */,
+				698A62A135134A61425B5F18 /* Pods-大千世界.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C979FEFD1CE3BF3E274B30DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949F0FFE20DB34DE00D13E88 /* libc++.tbd */,
+				7994B9EFFE216175F154E6D8 /* libPods-大千世界.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 949F0FED20DA5B1500D13E88 /* Build configuration list for PBXNativeTarget "大千世界" */;
 			buildPhases = (
+				D67E1DC77FA37F90401D028D /* [CP] Check Pods Manifest.lock */,
 				949F0FBD20DA5B1300D13E88 /* Sources */,
 				949F0FBE20DA5B1300D13E88 /* Frameworks */,
 				949F0FBF20DA5B1300D13E88 /* Resources */,
+				A01D3F31800EC767931D13B5 /* [CP] Embed Pods Frameworks */,
+				293448529B7595E3A1062DA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +494,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		293448529B7595E3A1062DA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-大千世界/Pods-大千世界-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01D3F31800EC767931D13B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-大千世界/Pods-大千世界-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67E1DC77FA37F90401D028D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-大千世界-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		949F0FBD20DA5B1300D13E88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949F0FC920DA5B1300D13E88 /* ViewController.m in Sources */,
+				949F106620DB3BDE00D13E88 /* LSLiveViewController.m in Sources */,
+				949F106C20DB3D5B00D13E88 /* LSBaseViewController.m in Sources */,
+				949F106920DB3BE800D13E88 /* LSMyViewController.m in Sources */,
+				949F100320DB35B100D13E88 /* LSPlayerMovieDecoder.m in Sources */,
+				949F100920DB35D400D13E88 /* AVFrameData.m in Sources */,
+				949F105120DB3A1A00D13E88 /* LSTabBarTool.m in Sources */,
+				949F105420DB3A8400D13E88 /* LSBaseNavigationController.m in Sources */,
 				949F0FD420DA5B1400D13E88 /* main.m in Sources */,
+				949F106320DB3BAC00D13E88 /* LSFolderViewController.m in Sources */,
 				949F0FC620DA5B1300D13E88 /* AppDelegate.m in Sources */,
+				949F100620DB35BC00D13E88 /* OpenGLView20.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +727,56 @@
 		};
 		949F0FEE20DA5B1500D13E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6387E6828E6AA6F499396E4 /* Pods-大千世界.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4LWFHDJZJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/大千世界/Main/Public",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework",
+				);
+				GCC_PREFIX_HEADER = "大千世界/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GCDWebServer\"",
+					"\"${PODS_ROOT}/Headers/Public/YTKKeyValueStore\"",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework/IJKMediaFramework.framework/Headers",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework/IJKMediaFramework.framework",
+				);
 				INFOPLIST_FILE = "大千世界/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"GCDWebServer\"",
+					"-l\"YTKKeyValueStore\"",
+					"-l\"YTKNetwork\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Yeelens.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,13 +786,56 @@
 		};
 		949F0FEF20DA5B1500D13E88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698A62A135134A61425B5F18 /* Pods-大千世界.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4LWFHDJZJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/大千世界/Main/Public",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework",
+				);
+				GCC_PREFIX_HEADER = "大千世界/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GCDWebServer\"",
+					"\"${PODS_ROOT}/Headers/Public/YTKKeyValueStore\"",
+					"\"${PODS_ROOT}/Headers/Public/YTKNetwork\"",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework/IJKMediaFramework.framework/Headers",
+					"$(PROJECT_DIR)/大千世界/Main/Public/Framework/IJKMediaFramework.framework",
+				);
 				INFOPLIST_FILE = "大千世界/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"FMDB\"",
+					"-l\"GCDWebServer\"",
+					"-l\"YTKKeyValueStore\"",
+					"-l\"YTKNetwork\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Yeelens.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

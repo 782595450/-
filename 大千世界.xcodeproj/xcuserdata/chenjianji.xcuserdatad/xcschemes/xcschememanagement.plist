@@ -7,7 +7,25 @@
 		<key>大千世界.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>949F0FC020DA5B1300D13E88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>949F0FD820DA5B1400D13E88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>949F0FE320DA5B1500D13E88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
